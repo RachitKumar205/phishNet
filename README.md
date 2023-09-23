@@ -18,4 +18,8 @@ Quit the server with CTRL-BREAK.
 8. Enter URL and click submit to get safety analysis.
 
 # Video URL
-!(phishNet - Presentation)[https://drive.google.com/file/d/1YqOJGMw9fqoeX7QCXnVKcM8qtDJHVqw7/view?usp=sharing]
+https://drive.google.com/file/d/1YqOJGMw9fqoeX7QCXnVKcM8qtDJHVqw7/view?usp=sharing
+
+# A Step further
+As an added layer of confirmation, we fetch the title of the webpage and cross check against the top three google search results for said title. If the domain of the search result matches with the webpage, the webpage is marked as safe. This reduces false postives.
+
