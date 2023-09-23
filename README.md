@@ -4,7 +4,7 @@
 1. Clone this repository into desired directory.
 2. Navigate to the directory using terminal.
 3. Run `pip install -r "requirments.txt"` to install all requirments.
-    - You can use a virtual environment if necessary
+    - You can use a virtual environment if necessary (use `__venv__` as directory for venv)
 4. Run `cd web`
 5. Run `python manage.py runserver`.
 6. Wait for the following to appear (datetime and version might not be the same)
